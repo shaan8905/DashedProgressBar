@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.shahnavaz.dashedprogress.customProgress.CustomLineDashedProgressBarView
+        android:id="@+id/progressBar"
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="30dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        app:sp_progressWidth="30.0"
+        app:sp_dashedWidth="10.0"
+        app:sp_stokeWidth="10.0"
+        app:sp_bgColor="@color/black"
+        app:sp_progressColor="@color/purple_500" />
+
+    <com.shahnavaz.dashedprogress.customProgress.CustomLineDashedProgressBarView
+        android:id="@+id/progressBar2"
+        android:layout_width="match_parent"
+        android:layout_marginVertical="30dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_height="40dp"
+        app:sp_progressWidth="30.0"
+        app:sp_dashedWidth="10.0"
+        app:sp_stokeWidth="10.0"
+        app:sp_bgColor="@color/teal_700"
+        app:sp_progressColor="@color/black" />
+
+</LinearLayout>
