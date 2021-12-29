@@ -41,11 +41,15 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 }
 
-project.afterEvaluate {
+afterEvaluate {
     publishing {
         publications {
+            // Creates a Maven publication called "release".
             release(MavenPublication) {
                 from components.release
+                groupId = 'com.github.shaan8905'
+                artifactId = 'DashedProgressBar'
+                version = '1.0.0'
             }
         }
     }
