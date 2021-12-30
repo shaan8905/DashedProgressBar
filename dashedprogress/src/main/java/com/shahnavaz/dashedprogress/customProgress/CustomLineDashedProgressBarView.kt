@@ -105,7 +105,7 @@ class CustomLineDashedProgressBarView : View {
         }
 
         val path = Path()
-        val progressPoint = progress * this.right / 100
+        val progressPoint = progress * this.width / 100
 
         progressBarPaint?.color = progressColor
         progressBarPaint?.pathEffect = DashPathEffect(floatArrayOf(40.0f, 10.0f), 0.0f)
