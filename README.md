@@ -59,6 +59,9 @@ animation.interpolator = LinearInterpolator();
 animation.start();
 ```
 
+## Output
+![Output Gif File](output.gif)
+
 <a href="https://paypal.me/shaan8905?country.x=IN&locale.x=en_GB" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 
 ## Happy Coding
